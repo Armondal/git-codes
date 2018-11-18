@@ -1,0 +1,22 @@
+1.initialite a new repository by git				-> git init
+2.to check status									-> git status
+3.add a new file 									-> git add fileName
+4.git commit  to give a new file					-> git commit -m "message"								(here double qoute is must)	
+5.git commit  to give a new fileName				-> git commit -m "message" fileName
+6. to check changes 								-> git diff
+7.For commiting all changes made in the directory	-> git commit -am 'message'
+8.to check all the git command 						->git all
+9.to check all git commit id						->git log
+10.to check what changed made by a specific commit 	-> git show few commit id numbers
+11.clone a git repository 							-> git clone http address
+12.add a remote										-> git remote add  remoteName  http address
+13.show a remote 									-> git remote show remoteName
+14.list of all remoteName  							->git remote show
+15.push to a any branch or master					->git push remoteName branchName
+16.download change from the repository 				-> git pull remoteName branchName
+17.deleting a file from both file system and repo 	->git rm file1.txt
+													  git commit -m "remove file1.txt"
+													  git push origin branch_name
+18.deleting a file from only repo 					->git rm --cached file1.txt
+													  git commit -m "remove file1.txt"
+													  git push origin branch_name
